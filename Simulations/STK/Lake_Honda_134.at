@@ -1,0 +1,123 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Lake_Honda_134
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7319853103119286e+01
+        EcfLongitude		 -1.2081752256695272e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 20
+
+        BEGIN PolygonPoints
+
+             3.7320744874750403e+01 -1.2081695712187597e+02  0.0000000000000000e+00
+             3.7320287183714456e+01 -1.2081681390796182e+02  0.0000000000000000e+00
+             3.7319624646832686e+01 -1.2081655584174359e+02  0.0000000000000000e+00
+             3.7319440112931538e+01 -1.2081632695011089e+02  0.0000000000000000e+00
+             3.7319167417623653e+01 -1.2081632647759704e+02  0.0000000000000000e+00
+             3.7318915716299522e+01 -1.2081672790145986e+02  0.0000000000000000e+00
+             3.7318823402813230e+01 -1.2081721510365252e+02  0.0000000000000000e+00
+             3.7319029192499166e+01 -1.2081750108861141e+02  0.0000000000000000e+00
+             3.7319211645637708e+01 -1.2081750149015835e+02  0.0000000000000000e+00
+             3.7319350050455967e+01 -1.2081767302256354e+02  0.0000000000000000e+00
+             3.7319327449627743e+01 -1.2081816044933502e+02  0.0000000000000000e+00
+             3.7319510235667302e+01 -1.2081841811670121e+02  0.0000000000000000e+00
+             3.7320013128412832e+01 -1.2081844740806770e+02  0.0000000000000000e+00
+             3.7320127378788243e+01 -1.2081853286569898e+02  0.0000000000000000e+00
+             3.7320424822867174e+01 -1.2081853273544328e+02  0.0000000000000000e+00
+             3.7320677424268879e+01 -1.2081830417798386e+02  0.0000000000000000e+00
+             3.7320654619524355e+01 -1.2081804595006891e+02  0.0000000000000000e+00
+             3.7320905802809264e+01 -1.2081761607206948e+02  0.0000000000000000e+00
+             3.7320973808878655e+01 -1.2081727213050340e+02  0.0000000000000000e+00
+             3.7320744874750403e+01 -1.2081695712187597e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12517
+DFGWATERID : 4564
+TYPE : 
+NAME : Lake Honda
+GNIS_NAME : Honda, Lake
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #00ff00
+                PolygonColor		 #00ff00
+                LabelColor		 #00ff00
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

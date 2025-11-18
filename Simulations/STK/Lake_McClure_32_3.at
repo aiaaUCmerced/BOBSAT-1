@@ -1,0 +1,136 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Lake_McClure_32_3
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7606341186177076e+01
+        EcfLongitude		 -1.2025709130947794e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 33
+
+        BEGIN PolygonPoints
+
+             3.7606054160242898e+01 -1.2025752658499317e+02  0.0000000000000000e+00
+             3.7606630694469949e+01 -1.2025748465163571e+02  0.0000000000000000e+00
+             3.7606735093856358e+01 -1.2025747078524098e+02  0.0000000000000000e+00
+             3.7606877694308430e+01 -1.2025742925163382e+02  0.0000000000000000e+00
+             3.7606916160238406e+01 -1.2025740845114342e+02  0.0000000000000000e+00
+             3.7606970960152374e+01 -1.2025734638564212e+02  0.0000000000000000e+00
+             3.7606987561024795e+01 -1.2025730498498562e+02  0.0000000000000000e+00
+             3.7607003894309784e+01 -1.2025721525137359e+02  0.0000000000000000e+00
+             3.7607003893598126e+01 -1.2025716685194270e+02  0.0000000000000000e+00
+             3.7606981894083603e+01 -1.2025708405242632e+02  0.0000000000000000e+00
+             3.7606954493779860e+01 -1.2025705658463991e+02  0.0000000000000000e+00
+             3.7606915960973687e+01 -1.2025704958496719e+02  0.0000000000000000e+00
+             3.7606624960605281e+01 -1.2025705678586250e+02  0.0000000000000000e+00
+             3.7606597494697084e+01 -1.2025704298414649e+02  0.0000000000000000e+00
+             3.7606570093540086e+01 -1.2025701538520602e+02  0.0000000000000000e+00
+             3.7606531560534769e+01 -1.2025693265126667e+02  0.0000000000000000e+00
+             3.7606482094218066e+01 -1.2025687058486704e+02  0.0000000000000000e+00
+             3.7606174493948757e+01 -1.2025655338524867e+02  0.0000000000000000e+00
+             3.7606141560847455e+01 -1.2025653958532926e+02  0.0000000000000000e+00
+             3.7606103093805224e+01 -1.2025653958443095e+02  0.0000000000000000e+00
+             3.7605998761140285e+01 -1.2025657418484074e+02  0.0000000000000000e+00
+             3.7605932894767477e+01 -1.2025661565107427e+02  0.0000000000000000e+00
+             3.7605845094670883e+01 -1.2025669158476691e+02  0.0000000000000000e+00
+             3.7605768294053995e+01 -1.2025678838452697e+02  0.0000000000000000e+00
+             3.7605724360472976e+01 -1.2025686425174430e+02  0.0000000000000000e+00
+             3.7605707960721588e+01 -1.2025699545158986e+02  0.0000000000000000e+00
+             3.7605708093804118e+01 -1.2025722318439585e+02  0.0000000000000000e+00
+             3.7605719160291827e+01 -1.2025731285153259e+02  0.0000000000000000e+00
+             3.7605730094407058e+01 -1.2025736118538644e+02  0.0000000000000000e+00
+             3.7605774094170066e+01 -1.2025743018498342e+02  0.0000000000000000e+00
+             3.7605839960683497e+01 -1.2025747145179092e+02  0.0000000000000000e+00
+             3.7605911361079613e+01 -1.2025749918458037e+02  0.0000000000000000e+00
+             3.7606054160242898e+01 -1.2025752658499317e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 11700
+DFGWATERID : 4245
+TYPE : perennial
+NAME : Lake McClure
+GNIS_NAME : Lake McClure
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #0000ff
+                PolygonColor		 #0000ff
+                LabelColor		 #0000ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

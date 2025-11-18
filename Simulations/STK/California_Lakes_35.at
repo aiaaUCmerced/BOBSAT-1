@@ -1,0 +1,115 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 California_Lakes_35
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7680921756527070e+01
+        EcfLongitude		 -1.2079611947521114e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 12
+
+        BEGIN PolygonPoints
+
+             3.7681042584321993e+01 -1.2079509872957952e+02  0.0000000000000000e+00
+             3.7680402495578271e+01 -1.2079532898575314e+02  0.0000000000000000e+00
+             3.7680172684366980e+01 -1.2079604880668863e+02  0.0000000000000000e+00
+             3.7680103771151622e+01 -1.2079694155062136e+02  0.0000000000000000e+00
+             3.7680653163327712e+01 -1.2079728677677829e+02  0.0000000000000000e+00
+             3.7680973084669539e+01 -1.2079728715047746e+02  0.0000000000000000e+00
+             3.7681156375323361e+01 -1.2079696992750287e+02  0.0000000000000000e+00
+             3.7681018990734358e+01 -1.2079625046230024e+02  0.0000000000000000e+00
+             3.7681545517118401e+01 -1.2079573230236626e+02  0.0000000000000000e+00
+             3.7681592693998020e+01 -1.2079524257051776e+02  0.0000000000000000e+00
+             3.7681477928248377e+01 -1.2079512694117102e+02  0.0000000000000000e+00
+             3.7681042584321993e+01 -1.2079509872957952e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 11709
+DFGWATERID : 4261
+TYPE : 
+NAME : 
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff00ff
+                PolygonColor		 #ff00ff
+                LabelColor		 #ff00ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

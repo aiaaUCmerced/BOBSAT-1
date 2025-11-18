@@ -1,0 +1,118 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Rushing_Lake_62
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7674927541255563e+01
+        EcfLongitude		 -1.2053674944408597e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 15
+
+        BEGIN PolygonPoints
+
+             3.7675268399080892e+01 -1.2053717386399312e+02  0.0000000000000000e+00
+             3.7675117485930130e+01 -1.2053611204095428e+02  0.0000000000000000e+00
+             3.7675229955728071e+01 -1.2053513322494260e+02  0.0000000000000000e+00
+             3.7674865321999889e+01 -1.2053493200681051e+02  0.0000000000000000e+00
+             3.7674592382874920e+01 -1.2053522450455523e+02  0.0000000000000000e+00
+             3.7674632277732236e+01 -1.2053587296422286e+02  0.0000000000000000e+00
+             3.7674373567271061e+01 -1.2053630323388776e+02  0.0000000000000000e+00
+             3.7674073029650991e+01 -1.2053651714521479e+02  0.0000000000000000e+00
+             3.7674361026408164e+01 -1.2053688958313832e+02  0.0000000000000000e+00
+             3.7674754367522937e+01 -1.2053727821768643e+02  0.0000000000000000e+00
+             3.7675029309671331e+01 -1.2053807059734403e+02  0.0000000000000000e+00
+             3.7675347434382360e+01 -1.2053863283760899e+02  0.0000000000000000e+00
+             3.7675775634180333e+01 -1.2053858189325092e+02  0.0000000000000000e+00
+             3.7675565300770081e+01 -1.2053777015489896e+02  0.0000000000000000e+00
+             3.7675268399080892e+01 -1.2053717386399312e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12151
+DFGWATERID : 4268
+TYPE : 
+NAME : Rushing Lake
+GNIS_NAME : Rushing Lake
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #00ffff
+                PolygonColor		 #00ffff
+                LabelColor		 #00ffff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

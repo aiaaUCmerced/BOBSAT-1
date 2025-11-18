@@ -1,0 +1,113 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Beltz_Lake_66
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7656184597068936e+01
+        EcfLongitude		 -1.2044027046297893e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 10
+
+        BEGIN PolygonPoints
+
+             3.7655948282161241e+01 -1.2043868692408824e+02  0.0000000000000000e+00
+             3.7655834825167709e+01 -1.2043906054778793e+02  0.0000000000000000e+00
+             3.7655955395486735e+01 -1.2044109622544319e+02  0.0000000000000000e+00
+             3.7656223896355833e+01 -1.2044222826709287e+02  0.0000000000000000e+00
+             3.7656535152691859e+01 -1.2044232838522960e+02  0.0000000000000000e+00
+             3.7656404808774930e+01 -1.2044093102436412e+02  0.0000000000000000e+00
+             3.7656313521598648e+01 -1.2044035609629410e+02  0.0000000000000000e+00
+             3.7656292122694552e+01 -1.2043906047771935e+02  0.0000000000000000e+00
+             3.7656153296007645e+01 -1.2043868623867367e+02  0.0000000000000000e+00
+             3.7655948282161241e+01 -1.2043868692408824e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12170
+DFGWATERID : 4293
+TYPE : 
+NAME : Beltz Lake
+GNIS_NAME : Beltz Lake
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff0000
+                PolygonColor		 #ff0000
+                LabelColor		 #ff0000
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

@@ -1,0 +1,126 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 California_Lakes_283
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7397214166619428e+01
+        EcfLongitude		 -1.2034716052844668e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 23
+
+        BEGIN PolygonPoints
+
+             3.7397578938961523e+01 -1.2034643349365287e+02  0.0000000000000000e+00
+             3.7397468249119910e+01 -1.2034582470538481e+02  0.0000000000000000e+00
+             3.7397523580501641e+01 -1.2034549263685183e+02  0.0000000000000000e+00
+             3.7397523585497247e+01 -1.2034499451204363e+02  0.0000000000000000e+00
+             3.7397246870373571e+01 -1.2034504986443480e+02  0.0000000000000000e+00
+             3.7396970137100283e+01 -1.2034549262517373e+02  0.0000000000000000e+00
+             3.7396970145664241e+01 -1.2034615677840937e+02  0.0000000000000000e+00
+             3.7396970140668607e+01 -1.2034671022147275e+02  0.0000000000000000e+00
+             3.7397025485264002e+01 -1.2034715297412683e+02  0.0000000000000000e+00
+             3.7397025481695692e+01 -1.2034731900614753e+02  0.0000000000000000e+00
+             3.7396748759737285e+01 -1.2034731900614753e+02  0.0000000000000000e+00
+             3.7396416693894075e+01 -1.2034754040403415e+02  0.0000000000000000e+00
+             3.7396250646504193e+01 -1.2034781712107429e+02  0.0000000000000000e+00
+             3.7396250647217855e+01 -1.2034831523689931e+02  0.0000000000000000e+00
+             3.7396472022483792e+01 -1.2034853661592132e+02  0.0000000000000000e+00
+             3.7396914800314313e+01 -1.2034886868894586e+02  0.0000000000000000e+00
+             3.7397302202632396e+01 -1.2034903470749184e+02  0.0000000000000000e+00
+             3.7397689630780626e+01 -1.2034903471737331e+02  0.0000000000000000e+00
+             3.7398187727313569e+01 -1.2034848125634362e+02  0.0000000000000000e+00
+             3.7398298420374488e+01 -1.2034781711568436e+02  0.0000000000000000e+00
+             3.7398077040512064e+01 -1.2034731900884250e+02  0.0000000000000000e+00
+             3.7397800313158733e+01 -1.2034682090559386e+02  0.0000000000000000e+00
+             3.7397578938961523e+01 -1.2034643349365287e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 16713
+DFGWATERID : 26771
+TYPE : 
+NAME : 
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff00ff
+                PolygonColor		 #ff00ff
+                LabelColor		 #ff00ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

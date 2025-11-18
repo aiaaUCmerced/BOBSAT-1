@@ -1,0 +1,121 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Cardoza_Lake_70
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7645899975304857e+01
+        EcfLongitude		 -1.2045636474397712e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 18
+
+        BEGIN PolygonPoints
+
+             3.7645511165393856e+01 -1.2045640177964451e+02  0.0000000000000000e+00
+             3.7645464375280419e+01 -1.2045648235762718e+02  0.0000000000000000e+00
+             3.7645488045610257e+01 -1.2045659439371281e+02  0.0000000000000000e+00
+             3.7645581221054037e+01 -1.2045660630178018e+02  0.0000000000000000e+00
+             3.7645703995233347e+01 -1.2045655749271755e+02  0.0000000000000000e+00
+             3.7645858309814926e+01 -1.2045655190070491e+02  0.0000000000000000e+00
+             3.7646049562545343e+01 -1.2045643057064936e+02  0.0000000000000000e+00
+             3.7646105231967809e+01 -1.2045641277951515e+02  0.0000000000000000e+00
+             3.7646217695938113e+01 -1.2045634266241397e+02  0.0000000000000000e+00
+             3.7646300351306827e+01 -1.2045634014353791e+02  0.0000000000000000e+00
+             3.7646305765590881e+01 -1.2045618119293660e+02  0.0000000000000000e+00
+             3.7646295951311622e+01 -1.2045614603557134e+02  0.0000000000000000e+00
+             3.7646247467415876e+01 -1.2045611575785468e+02  0.0000000000000000e+00
+             3.7646203288888671e+01 -1.2045612032488958e+02  0.0000000000000000e+00
+             3.7645725134011983e+01 -1.2045626090135008e+02  0.0000000000000000e+00
+             3.7645662813042890e+01 -1.2045631295961911e+02  0.0000000000000000e+00
+             3.7645579203836604e+01 -1.2045634308552049e+02  0.0000000000000000e+00
+             3.7645511165393856e+01 -1.2045640177964451e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12181
+DFGWATERID : 4306
+TYPE : 
+NAME : Cardoza Lake
+GNIS_NAME : Cardoza Lake
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ffff00
+                PolygonColor		 #ffff00
+                LabelColor		 #ffff00
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

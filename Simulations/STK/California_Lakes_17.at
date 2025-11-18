@@ -1,0 +1,127 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 California_Lakes_17
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7349975975861334e+01
+        EcfLongitude		 -1.2043219795142436e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 24
+
+        BEGIN PolygonPoints
+
+             3.7350506663980333e+01 -1.2043186798164977e+02  0.0000000000000000e+00
+             3.7350462737888854e+01 -1.2043181297600830e+02  0.0000000000000000e+00
+             3.7350369457700538e+01 -1.2043183364983624e+02  0.0000000000000000e+00
+             3.7350210140226679e+01 -1.2043197817798567e+02  0.0000000000000000e+00
+             3.7350072921265088e+01 -1.2043207444504479e+02  0.0000000000000000e+00
+             3.7349963137488729e+01 -1.2043212945158457e+02  0.0000000000000000e+00
+             3.7349908129497230e+01 -1.2043214318862189e+02  0.0000000000000000e+00
+             3.7349897129322308e+01 -1.2043216384717849e+02  0.0000000000000000e+00
+             3.7349485331430394e+01 -1.2043221205167494e+02  0.0000000000000000e+00
+             3.7349430468768482e+01 -1.2043226718577552e+02  0.0000000000000000e+00
+             3.7349419527795220e+01 -1.2043232217794225e+02  0.0000000000000000e+00
+             3.7349490859398720e+01 -1.2043240466035333e+02  0.0000000000000000e+00
+             3.7349562266630628e+01 -1.2043246644378362e+02  0.0000000000000000e+00
+             3.7349699522945365e+01 -1.2043246658302249e+02  0.0000000000000000e+00
+             3.7349737923676010e+01 -1.2043248025448280e+02  0.0000000000000000e+00
+             3.7349754468961876e+01 -1.2043245965072344e+02  0.0000000000000000e+00
+             3.7349820320863131e+01 -1.2043247338686247e+02  0.0000000000000000e+00
+             3.7350001525230553e+01 -1.2043246657763260e+02  0.0000000000000000e+00
+             3.7350039932947823e+01 -1.2043245279028962e+02  0.0000000000000000e+00
+             3.7350149733036396e+01 -1.2043234263886949e+02  0.0000000000000000e+00
+             3.7350479257307171e+01 -1.2043193677283760e+02  0.0000000000000000e+00
+             3.7350479258735390e+01 -1.2043191618973948e+02  0.0000000000000000e+00
+             3.7350506723965232e+01 -1.2043188178067086e+02  0.0000000000000000e+00
+             3.7350506663980333e+01 -1.2043186798164977e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 10265
+DFGWATERID : 26672
+TYPE : 
+NAME : 
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff0000
+                PolygonColor		 #ff0000
+                LabelColor		 #ff0000
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

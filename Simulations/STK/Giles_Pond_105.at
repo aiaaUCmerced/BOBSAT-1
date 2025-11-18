@@ -1,0 +1,122 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Giles_Pond_105
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7472063618520728e+01
+        EcfLongitude		 -1.2023910846568978e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 19
+
+        BEGIN PolygonPoints
+
+             3.7472302992979557e+01 -1.2023891841866725e+02  0.0000000000000000e+00
+             3.7472042380214411e+01 -1.2023876985348892e+02  0.0000000000000000e+00
+             3.7471847628894814e+01 -1.2023863079697787e+02  0.0000000000000000e+00
+             3.7471675233810224e+01 -1.2023847882538800e+02  0.0000000000000000e+00
+             3.7471626075062083e+01 -1.2023846306354805e+02  0.0000000000000000e+00
+             3.7471597871382315e+01 -1.2023848954857755e+02  0.0000000000000000e+00
+             3.7471617803390679e+01 -1.2023857325539237e+02  0.0000000000000000e+00
+             3.7471911230428375e+01 -1.2023895114788630e+02  0.0000000000000000e+00
+             3.7472043078903639e+01 -1.2023918440982287e+02  0.0000000000000000e+00
+             3.7472078977974782e+01 -1.2023928947857513e+02  0.0000000000000000e+00
+             3.7472087571134594e+01 -1.2023938655232135e+02  0.0000000000000000e+00
+             3.7472040436717620e+01 -1.2023973011390009e+02  0.0000000000000000e+00
+             3.7472070720612464e+01 -1.2023984186701637e+02  0.0000000000000000e+00
+             3.7472118657789181e+01 -1.2023990595193042e+02  0.0000000000000000e+00
+             3.7472156639342529e+01 -1.2023992819511520e+02  0.0000000000000000e+00
+             3.7472793752533114e+01 -1.2023933184312394e+02  0.0000000000000000e+00
+             3.7472634598261891e+01 -1.2023909060863920e+02  0.0000000000000000e+00
+             3.7472499465584981e+01 -1.2023898847019142e+02  0.0000000000000000e+00
+             3.7472302992979557e+01 -1.2023891841866725e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12376
+DFGWATERID : 4486
+TYPE : 
+NAME : Giles Pond
+GNIS_NAME : Giles Pond
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff00ff
+                PolygonColor		 #ff00ff
+                LabelColor		 #ff00ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

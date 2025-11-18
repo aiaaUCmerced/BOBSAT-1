@@ -1,0 +1,126 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Sierra_Vista_189
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7152973107216724e+01
+        EcfLongitude		 -1.2027100943832669e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 23
+
+        BEGIN PolygonPoints
+
+             3.7151719010975405e+01 -1.2027405199475648e+02  0.0000000000000000e+00
+             3.7151650089514348e+01 -1.2027468067621649e+02  0.0000000000000000e+00
+             3.7151674985305121e+01 -1.2027625241445166e+02  0.0000000000000000e+00
+             3.7151788862446942e+01 -1.2027630951945596e+02  0.0000000000000000e+00
+             3.7152085036150808e+01 -1.2027625245667248e+02  0.0000000000000000e+00
+             3.7152177291986341e+01 -1.2027605213146580e+02  0.0000000000000000e+00
+             3.7152360752967759e+01 -1.2027482332868360e+02  0.0000000000000000e+00
+             3.7152725244265362e+01 -1.2027353666092237e+02  0.0000000000000000e+00
+             3.7153365353882450e+01 -1.2027207822539737e+02  0.0000000000000000e+00
+             3.7153844586438844e+01 -1.2027039198969268e+02  0.0000000000000000e+00
+             3.7154211650219345e+01 -1.2026813339509972e+02  0.0000000000000000e+00
+             3.7154460636554681e+01 -1.2026516068566990e+02  0.0000000000000000e+00
+             3.7154392574605190e+01 -1.2026504628072693e+02  0.0000000000000000e+00
+             3.7154140573814267e+01 -1.2026496039729417e+02  0.0000000000000000e+00
+             3.7153957161541427e+01 -1.2026501766848681e+02  0.0000000000000000e+00
+             3.7153752563896902e+01 -1.2026561818955928e+02  0.0000000000000000e+00
+             3.7153546039009754e+01 -1.2026701887329301e+02  0.0000000000000000e+00
+             3.7153433994549381e+01 -1.2026870531920343e+02  0.0000000000000000e+00
+             3.7153273873468351e+01 -1.2026996354001456e+02  0.0000000000000000e+00
+             3.7152724633531967e+01 -1.2027165023026674e+02  0.0000000000000000e+00
+             3.7152312588551581e+01 -1.2027253688721513e+02  0.0000000000000000e+00
+             3.7151809304724672e+01 -1.2027396572953974e+02  0.0000000000000000e+00
+             3.7151719010975405e+01 -1.2027405199475648e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12782
+DFGWATERID : 4885
+TYPE : 
+NAME : Sierra Vista
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff00ff
+                PolygonColor		 #ff00ff
+                LabelColor		 #ff00ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

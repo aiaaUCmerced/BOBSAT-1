@@ -1,0 +1,124 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Toledo_Pond_110
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7462587957903310e+01
+        EcfLongitude		 -1.2023118032043637e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 21
+
+        BEGIN PolygonPoints
+
+             3.7462694556656075e+01 -1.2023073554616656e+02  0.0000000000000000e+00
+             3.7462564599070205e+01 -1.2023086853815113e+02  0.0000000000000000e+00
+             3.7462502866303460e+01 -1.2023091442050259e+02  0.0000000000000000e+00
+             3.7462263591366288e+01 -1.2023101542797144e+02  0.0000000000000000e+00
+             3.7461984419429776e+01 -1.2023117008282907e+02  0.0000000000000000e+00
+             3.7461944056843748e+01 -1.2023124447770765e+02  0.0000000000000000e+00
+             3.7462029989352203e+01 -1.2023177289999543e+02  0.0000000000000000e+00
+             3.7462121637513206e+01 -1.2023185254822178e+02  0.0000000000000000e+00
+             3.7462583874639698e+01 -1.2023186403408101e+02  0.0000000000000000e+00
+             3.7462838993638805e+01 -1.2023179134061159e+02  0.0000000000000000e+00
+             3.7462867177806068e+01 -1.2023176480976798e+02  0.0000000000000000e+00
+             3.7462851888893113e+01 -1.2023171586236477e+02  0.0000000000000000e+00
+             3.7462692861766300e+01 -1.2023146771983552e+02  0.0000000000000000e+00
+             3.7462621174382008e+01 -1.2023125073088033e+02  0.0000000000000000e+00
+             3.7462664149885477e+01 -1.2023107281414843e+02  0.0000000000000000e+00
+             3.7462704709594107e+01 -1.2023099153098823e+02  0.0000000000000000e+00
+             3.7462949675277542e+01 -1.2023066280328982e+02  0.0000000000000000e+00
+             3.7462973728793294e+01 -1.2023058086615612e+02  0.0000000000000000e+00
+             3.7462989039785406e+01 -1.2023040877589715e+02  0.0000000000000000e+00
+             3.7462916147655555e+01 -1.2023046116384786e+02  0.0000000000000000e+00
+             3.7462694556656075e+01 -1.2023073554616656e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12390
+DFGWATERID : 4494
+TYPE : 
+NAME : Toledo Pond
+GNIS_NAME : Toledo Pond
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #0000ff
+                PolygonColor		 #0000ff
+                LabelColor		 #0000ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

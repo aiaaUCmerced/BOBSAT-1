@@ -1,0 +1,115 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Lake_McClure_32_0
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7608526588216833e+01
+        EcfLongitude		 -1.2027885442916664e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 12
+
+        BEGIN PolygonPoints
+
+             3.7608734438585763e+01 -1.2027900656377282e+02  0.0000000000000000e+00
+             3.7608730562981521e+01 -1.2027894233333168e+02  0.0000000000000000e+00
+             3.7608704460646472e+01 -1.2027886289351447e+02  0.0000000000000000e+00
+             3.7608601357080687e+01 -1.2027870177438005e+02  0.0000000000000000e+00
+             3.7608451822106055e+01 -1.2027858132197858e+02  0.0000000000000000e+00
+             3.7608367186825348e+01 -1.2027857048560128e+02  0.0000000000000000e+00
+             3.7608337921807454e+01 -1.2027860478687211e+02  0.0000000000000000e+00
+             3.7608186845586218e+01 -1.2027894690934974e+02  0.0000000000000000e+00
+             3.7608399381676470e+01 -1.2027904166095097e+02  0.0000000000000000e+00
+             3.7608579566550283e+01 -1.2027907804990649e+02  0.0000000000000000e+00
+             3.7608698924778324e+01 -1.2027906194311345e+02  0.0000000000000000e+00
+             3.7608734438585763e+01 -1.2027900656377282e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 11700
+DFGWATERID : 4245
+TYPE : perennial
+NAME : Lake McClure
+GNIS_NAME : Lake McClure
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #00ffff
+                PolygonColor		 #00ffff
+                LabelColor		 #00ffff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

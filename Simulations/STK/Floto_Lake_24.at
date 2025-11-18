@@ -1,0 +1,113 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Floto_Lake_24
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7637057204054713e+01
+        EcfLongitude		 -1.2048808728604706e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 10
+
+        BEGIN PolygonPoints
+
+             3.7637381456948191e+01 -1.2048843290442410e+02  0.0000000000000000e+00
+             3.7637336879761307e+01 -1.2048771343742484e+02  0.0000000000000000e+00
+             3.7637521128261469e+01 -1.2048685024806497e+02  0.0000000000000000e+00
+             3.7636375322330153e+01 -1.2048667712294679e+02  0.0000000000000000e+00
+             3.7636513341584539e+01 -1.2048797212617553e+02  0.0000000000000000e+00
+             3.7636650316995222e+01 -1.2048805812099936e+02  0.0000000000000000e+00
+             3.7636902652001780e+01 -1.2048869124732339e+02  0.0000000000000000e+00
+             3.7637291534269146e+01 -1.2048918103576575e+02  0.0000000000000000e+00
+             3.7637542176179636e+01 -1.2048920934707026e+02  0.0000000000000000e+00
+             3.7637381456948191e+01 -1.2048843290442410e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 11668
+DFGWATERID : 4314
+TYPE : 
+NAME : Floto Lake
+GNIS_NAME : Floto Lake
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #00ffff
+                PolygonColor		 #00ffff
+                LabelColor		 #00ffff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

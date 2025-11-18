@@ -1,0 +1,134 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 California_Lakes_304
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7116673718766592e+01
+        EcfLongitude		 -1.2025337894511823e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 31
+
+        BEGIN PolygonPoints
+
+             3.7116713461634610e+01 -1.2025324623124196e+02  0.0000000000000000e+00
+             3.7116688799320670e+01 -1.2025324614859696e+02  0.0000000000000000e+00
+             3.7116689062927883e+01 -1.2025312257005825e+02  0.0000000000000000e+00
+             3.7116726237267372e+01 -1.2025303773406115e+02  0.0000000000000000e+00
+             3.7116720252383331e+01 -1.2025295275433359e+02  0.0000000000000000e+00
+             3.7116652497445806e+01 -1.2025292163309888e+02  0.0000000000000000e+00
+             3.7116590759577015e+01 -1.2025296004416212e+02  0.0000000000000000e+00
+             3.7116547535087712e+01 -1.2025299079439260e+02  0.0000000000000000e+00
+             3.7116565965419284e+01 -1.2025302175123564e+02  0.0000000000000000e+00
+             3.7116596711520359e+01 -1.2025306047131932e+02  0.0000000000000000e+00
+             3.7116596579716592e+01 -1.2025312226103782e+02  0.0000000000000000e+00
+             3.7116596431437351e+01 -1.2025319177357281e+02  0.0000000000000000e+00
+             3.7116546843833788e+01 -1.2025331518592317e+02  0.0000000000000000e+00
+             3.7116528280261022e+01 -1.2025334601879865e+02  0.0000000000000000e+00
+             3.7116540414097507e+01 -1.2025343874380060e+02  0.0000000000000000e+00
+             3.7116509503934992e+01 -1.2025347725817008e+02  0.0000000000000000e+00
+             3.7116509355655573e+01 -1.2025354677070509e+02  0.0000000000000000e+00
+             3.7116546250000113e+01 -1.2025359323696149e+02  0.0000000000000000e+00
+             3.7116583028998335e+01 -1.2025369376742495e+02  0.0000000000000000e+00
+             3.7116650569817047e+01 -1.2025382529605388e+02  0.0000000000000000e+00
+             3.7116718340515433e+01 -1.2025384869357379e+02  0.0000000000000000e+00
+             3.7116773847701538e+01 -1.2025384115670855e+02  0.0000000000000000e+00
+             3.7116841702099293e+01 -1.2025382593745100e+02  0.0000000000000000e+00
+             3.7116903555807603e+01 -1.2025373345948576e+02  0.0000000000000000e+00
+             3.7116903802938673e+01 -1.2025361760556021e+02  0.0000000000000000e+00
+             3.7116866991145436e+01 -1.2025353252162806e+02  0.0000000000000000e+00
+             3.7116823831282872e+01 -1.2025353237699932e+02  0.0000000000000000e+00
+             3.7116793119657522e+01 -1.2025347820768937e+02  0.0000000000000000e+00
+             3.7116768556222127e+01 -1.2025343178275546e+02  0.0000000000000000e+00
+             3.7116719264572978e+01 -1.2025341617183247e+02  0.0000000000000000e+00
+             3.7116713461634610e+01 -1.2025324623124196e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 17774
+DFGWATERID : 27452
+TYPE : 
+NAME : 
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ff0000
+                PolygonColor		 #ff0000
+                LabelColor		 #ff0000
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

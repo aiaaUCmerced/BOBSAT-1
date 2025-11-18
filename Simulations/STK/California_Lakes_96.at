@@ -1,0 +1,114 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 California_Lakes_96
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7508735002372852e+01
+        EcfLongitude		 -1.1990294619905369e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 11
+
+        BEGIN PolygonPoints
+
+             3.7507887608586394e+01 -1.1990259779113644e+02  0.0000000000000000e+00
+             3.7507869061584053e+01 -1.1990371741267901e+02  0.0000000000000000e+00
+             3.7508165000700572e+01 -1.1990414053265259e+02  0.0000000000000000e+00
+             3.7508760839595560e+01 -1.1990418362304013e+02  0.0000000000000000e+00
+             3.7509356840481004e+01 -1.1990330750153342e+02  0.0000000000000000e+00
+             3.7509492043310992e+01 -1.1990275758705246e+02  0.0000000000000000e+00
+             3.7509447994496156e+01 -1.1990244232240518e+02  0.0000000000000000e+00
+             3.7509287342052239e+01 -1.1990210136594079e+02  0.0000000000000000e+00
+             3.7508874749692986e+01 -1.1990202633774994e+02  0.0000000000000000e+00
+             3.7508208516532804e+01 -1.1990218749641024e+02  0.0000000000000000e+00
+             3.7507887608586394e+01 -1.1990259779113644e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12317
+DFGWATERID : 4465
+TYPE : 
+NAME : 
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #00ff00
+                PolygonColor		 #00ff00
+                LabelColor		 #00ff00
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

@@ -1,0 +1,122 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 El_Nido_Reservoir_194
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7143872295729246e+01
+        EcfLongitude		 -1.2042744241070496e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 19
+
+        BEGIN PolygonPoints
+
+             3.7144102420667345e+01 -1.2042441132608940e+02  0.0000000000000000e+00
+             3.7143486235324218e+01 -1.2042498307951323e+02  0.0000000000000000e+00
+             3.7143257751248910e+01 -1.2042535453917144e+02  0.0000000000000000e+00
+             3.7143187720755975e+01 -1.2042606899177477e+02  0.0000000000000000e+00
+             3.7143348148190107e+01 -1.2042661164786823e+02  0.0000000000000000e+00
+             3.7143234784651426e+01 -1.2042709808649290e+02  0.0000000000000000e+00
+             3.7143187697841626e+01 -1.2042772659278143e+02  0.0000000000000000e+00
+             3.7143301911428473e+01 -1.2042821237653426e+02  0.0000000000000000e+00
+             3.7143577007212762e+01 -1.2042864137598134e+02  0.0000000000000000e+00
+             3.7143669623585168e+01 -1.2042927007720431e+02  0.0000000000000000e+00
+             3.7143395564292781e+01 -1.2042972750204191e+02  0.0000000000000000e+00
+             3.7143486561852299e+01 -1.2042987017517028e+02  0.0000000000000000e+00
+             3.7144173195735888e+01 -1.2042984193752764e+02  0.0000000000000000e+00
+             3.7144537667780000e+01 -1.2042961291024932e+02  0.0000000000000000e+00
+             3.7145499171111254e+01 -1.2042855524551190e+02  0.0000000000000000e+00
+             3.7145453898754099e+01 -1.2042812684344449e+02  0.0000000000000000e+00
+             3.7144538255665587e+01 -1.2042549697065299e+02  0.0000000000000000e+00
+             3.7144263434765243e+01 -1.2042435374497802e+02  0.0000000000000000e+00
+             3.7144102420667345e+01 -1.2042441132608940e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12800
+DFGWATERID : 4912
+TYPE : 
+NAME : El Nido Reservoir
+GNIS_NAME : El Nido Reservoir
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #00ff00
+                PolygonColor		 #00ff00
+                LabelColor		 #00ff00
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

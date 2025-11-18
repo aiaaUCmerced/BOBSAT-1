@@ -1,0 +1,121 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 California_Lakes_107
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7469845679764958e+01
+        EcfLongitude		 -1.2058304448368123e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 18
+
+        BEGIN PolygonPoints
+
+             3.7471003871280892e+01 -1.2058312100373975e+02  0.0000000000000000e+00
+             3.7470706365396651e+01 -1.2058223099427875e+02  0.0000000000000000e+00
+             3.7470225991453461e+01 -1.2058165643541628e+02  0.0000000000000000e+00
+             3.7469402558806152e+01 -1.2058105333617893e+02  0.0000000000000000e+00
+             3.7468897816875590e+01 -1.2058093816137972e+02  0.0000000000000000e+00
+             3.7468692391893832e+01 -1.2058113915223802e+02  0.0000000000000000e+00
+             3.7468531043600940e+01 -1.2058151251722293e+02  0.0000000000000000e+00
+             3.7469013108210483e+01 -1.2058205795090726e+02  0.0000000000000000e+00
+             3.7469058733025953e+01 -1.2058274696142512e+02  0.0000000000000000e+00
+             3.7469446681149954e+01 -1.2058320650359184e+02  0.0000000000000000e+00
+             3.7469538186180770e+01 -1.2058349391956700e+02  0.0000000000000000e+00
+             3.7469401289713545e+01 -1.2058484307413941e+02  0.0000000000000000e+00
+             3.7469722259658099e+01 -1.2058544550952176e+02  0.0000000000000000e+00
+             3.7470820868260439e+01 -1.2058518753313510e+02  0.0000000000000000e+00
+             3.7470819547858810e+01 -1.2058490064896260e+02  0.0000000000000000e+00
+             3.7470979217898915e+01 -1.2058455625284897e+02  0.0000000000000000e+00
+             3.7471116462964154e+01 -1.2058366642933923e+02  0.0000000000000000e+00
+             3.7471003871280892e+01 -1.2058312100373975e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 12378
+DFGWATERID : 4488
+TYPE : 
+NAME : 
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #0000ff
+                PolygonColor		 #0000ff
+                LabelColor		 #0000ff
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

@@ -1,0 +1,138 @@
+stk.v.13.0
+WrittenBy    STK_v13.0.0
+
+BEGIN AreaTarget
+
+    Name		 Mcmahon_30
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  3.7701451899706726e+01
+        EcfLongitude		 -1.2020034444986892e+02
+        EcfAltitude		  0.0000000000000000e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        NumberOfPolygonPts		 35
+
+        BEGIN PolygonPoints
+
+             3.7700515185435364e+01 -1.2019780480803726e+02  0.0000000000000000e+00
+             3.7700149879942870e+01 -1.2019760309134023e+02  0.0000000000000000e+00
+             3.7699920871961965e+01 -1.2019763230814652e+02  0.0000000000000000e+00
+             3.7699622680331714e+01 -1.2019797739147134e+02  0.0000000000000000e+00
+             3.7699486009448158e+01 -1.2019800589681192e+02  0.0000000000000000e+00
+             3.7699280317818577e+01 -1.2019863949924309e+02  0.0000000000000000e+00
+             3.7699669023350047e+01 -1.2019907134006141e+02  0.0000000000000000e+00
+             3.7699851247135086e+01 -1.2019915806970715e+02  0.0000000000000000e+00
+             3.7700150118049734e+01 -1.2019950331472870e+02  0.0000000000000000e+00
+             3.7700378292306389e+01 -1.2020019429345537e+02  0.0000000000000000e+00
+             3.7700103618963368e+01 -1.2020077023841831e+02  0.0000000000000000e+00
+             3.7700171733174322e+01 -1.2020117313911145e+02  0.0000000000000000e+00
+             3.7700401467492199e+01 -1.2020117293968545e+02  0.0000000000000000e+00
+             3.7700515936712115e+01 -1.2020105813319552e+02  0.0000000000000000e+00
+             3.7700880893549986e+01 -1.2020105857516664e+02  0.0000000000000000e+00
+             3.7701132538322000e+01 -1.2020131771487159e+02  0.0000000000000000e+00
+             3.7701361932764350e+01 -1.2020215252824826e+02  0.0000000000000000e+00
+             3.7701613710235648e+01 -1.2020203746304354e+02  0.0000000000000000e+00
+             3.7701911780847787e+01 -1.2020206589741721e+02  0.0000000000000000e+00
+             3.7702252658541077e+01 -1.2020238271345501e+02  0.0000000000000000e+00
+             3.7703328719652490e+01 -1.2020206654779747e+02  0.0000000000000000e+00
+             3.7703764156639068e+01 -1.2020172055178435e+02  0.0000000000000000e+00
+             3.7704130057679130e+01 -1.2020166354649302e+02  0.0000000000000000e+00
+             3.7704312845476089e+01 -1.2020149083459988e+02  0.0000000000000000e+00
+             3.7704335326473362e+01 -1.2020120290209344e+02  0.0000000000000000e+00
+             3.7704312326645500e+01 -1.2020108748834237e+02  0.0000000000000000e+00
+             3.7703717128902483e+01 -1.2020097233600103e+02  0.0000000000000000e+00
+             3.7702962128082014e+01 -1.2020114469934786e+02  0.0000000000000000e+00
+             3.7702527242185688e+01 -1.2020085696626742e+02  0.0000000000000000e+00
+             3.7702070386642170e+01 -1.2020068422293323e+02  0.0000000000000000e+00
+             3.7701590674025645e+01 -1.2020030959312039e+02  0.0000000000000000e+00
+             3.7701270381049689e+01 -1.2019982051075385e+02  0.0000000000000000e+00
+             3.7701065282167988e+01 -1.2019924423431257e+02  0.0000000000000000e+00
+             3.7700607731017747e+01 -1.2019866817706021e+02  0.0000000000000000e+00
+             3.7700515185435364e+01 -1.2019780480803726e+02  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+            BEGIN LongText
+FID : 11696
+DFGWATERID : 4243
+TYPE : 
+NAME : Mcmahon
+GNIS_NAME :
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ffff00
+                PolygonColor		 #ffff00
+                LabelColor		 #ffff00
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+
