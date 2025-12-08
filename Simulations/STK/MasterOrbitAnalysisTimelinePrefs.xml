@@ -5,6 +5,47 @@
             <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "MasterOrbitAnalysis AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/MasterOrbitAnalysis" Type = "IntervalList">
                 <Interval Name = "MasterOrbitAnalysis AvailabilityIntervals" StartTime = "17 Nov 2024 20:00:00.000" StopTime = "18 Nov 2025 20:00:00.000" />
             </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/MasterOrbitAnalysis/Satellite/BOBSAT1;/Application/STK/Scenario/MasterOrbitAnalysis/AreaTarget/California_Lakes_101" Type = "IntervalList">
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "18 Nov 2024 02:26:03.543" StopTime = "18 Nov 2024 02:33:33.446" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "18 Nov 2024 03:56:52.069" StopTime = "18 Nov 2024 04:08:21.365" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "18 Nov 2024 05:33:38.790" StopTime = "18 Nov 2024 05:39:29.189" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "18 Nov 2024 15:28:26.554" StopTime = "18 Nov 2024 15:36:15.214" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "18 Nov 2024 17:00:27.185" StopTime = "18 Nov 2024 17:11:48.150" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "18 Nov 2024 18:35:57.930" StopTime = "18 Nov 2024 18:41:30.537" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "19 Nov 2024 02:06:26.136" StopTime = "19 Nov 2024 02:10:33.029" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "19 Nov 2024 03:35:19.958" StopTime = "19 Nov 2024 03:46:38.416" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "19 Nov 2024 05:10:17.355" StopTime = "19 Nov 2024 05:19:02.320" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "19 Nov 2024 15:08:33.230" StopTime = "19 Nov 2024 15:12:12.922" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "19 Nov 2024 16:38:45.127" StopTime = "19 Nov 2024 16:50:06.900" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "19 Nov 2024 18:13:14.430" StopTime = "19 Nov 2024 18:21:26.016" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "20 Nov 2024 03:13:59.945" StopTime = "20 Nov 2024 03:24:41.283" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "20 Nov 2024 04:47:35.191" StopTime = "20 Nov 2024 04:57:53.893" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "20 Nov 2024 16:17:07.306" StopTime = "20 Nov 2024 16:28:02.130" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "20 Nov 2024 17:50:52.118" StopTime = "20 Nov 2024 18:00:39.334" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "21 Nov 2024 02:52:53.360" StopTime = "21 Nov 2024 03:02:27.641" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "21 Nov 2024 04:25:12.628" StopTime = "21 Nov 2024 04:36:21.971" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "21 Nov 2024 15:55:36.756" StopTime = "21 Nov 2024 16:05:30.663" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "21 Nov 2024 17:28:37.903" StopTime = "21 Nov 2024 17:39:24.174" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "22 Nov 2024 02:32:06.294" StopTime = "22 Nov 2024 02:39:52.692" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "22 Nov 2024 04:03:04.219" StopTime = "22 Nov 2024 04:14:32.687" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "22 Nov 2024 05:40:07.958" StopTime = "22 Nov 2024 05:45:24.607" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "22 Nov 2024 15:34:21.744" StopTime = "22 Nov 2024 15:42:24.202" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "22 Nov 2024 17:06:28.102" StopTime = "22 Nov 2024 17:17:44.693" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "22 Nov 2024 18:42:08.457" StopTime = "22 Nov 2024 18:47:10.396" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "23 Nov 2024 02:11:59.262" StopTime = "23 Nov 2024 02:16:35.831" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "23 Nov 2024 03:41:07.485" StopTime = "23 Nov 2024 03:52:27.727" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "23 Nov 2024 05:16:12.917" StopTime = "23 Nov 2024 05:24:43.873" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "23 Nov 2024 15:13:55.366" StopTime = "23 Nov 2024 15:18:07.996" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "23 Nov 2024 16:44:21.331" StopTime = "23 Nov 2024 16:55:41.464" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "23 Nov 2024 18:18:54.113" StopTime = "23 Nov 2024 18:26:50.657" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "24 Nov 2024 03:19:22.030" StopTime = "24 Nov 2024 03:30:06.967" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "24 Nov 2024 04:53:02.323" StopTime = "24 Nov 2024 05:03:14.155" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "24 Nov 2024 16:22:18.157" StopTime = "24 Nov 2024 16:33:13.345" />
+                <Interval Name = "Satellite-BOBSAT1-To-AreaTarget-California_Lakes_101 AccessIntervals" StartTime = "24 Nov 2024 17:56:04.653" StopTime = "24 Nov 2024 18:05:43.051" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-BOBSAT1-Sensor-Payload-To-AreaTarget-Big_Buttonwillow_Lake_197 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/MasterOrbitAnalysis/Satellite/BOBSAT1/Sensor/Payload;/Application/STK/Scenario/MasterOrbitAnalysis/AreaTarget/Big_Buttonwillow_Lake_197" Type = "IntervalList">
+                <Interval Name = "Satellite-BOBSAT1-Sensor-Payload-To-AreaTarget-Big_Buttonwillow_Lake_197 AccessIntervals" StartTime = "18 Nov 2024 17:05:40.581" StopTime = "18 Nov 2024 17:05:42.154" />
+            </Row>
         </ContentView>
     </Views>
     <Views Type = "Time">

@@ -9,9 +9,9 @@ BEGIN AreaTarget
 
         CentralBody		 Earth
         AutoCentroid		 On
-        EcfLatitude		  3.7547242459314582e+01
-        EcfLongitude		 -1.1990004571228560e+02
-        EcfAltitude		  0.0000000000000000e+00
+        EcfLatitude		  3.7547242459314589e+01
+        EcfLongitude		 -1.1990004571228563e+02
+        EcfAltitude		  8.9619500178143994e+02
         UseTerrainInfo		 On
         DisplayCoords		 Geodetic
 

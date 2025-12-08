@@ -67,6 +67,7 @@ BEGIN Scenario
 
             BEGIN StreamingTerrain
                 UseCurrentStreamingTerrainServer		 Yes
+                CurrentStreamingTerrainServerName		 https://api-ion.agi.com
                 StreamingTerrainTilesetName		 Cesium World Terrain
                 StreamingTerrainServerName		 assets.agi.com/stk-terrain/
                 StreamingTerrainAzimuthElevationMaskEnabled		 No
@@ -90,6 +91,288 @@ BEGIN Scenario
         Module		 stk_mission_level3
         Module		 stk_mission_space
     END ScenarioLicenses
+
+    BEGIN QuickReports
+
+        BEGIN Report
+            Name		 Euler Angles
+            Type		 Report
+            BaseDir		 User
+            Style		 Euler Angles
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 2
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"18 Nov 2024 17:05:41.374000000" "18 Nov 2024 18:05:41.374000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Interval
+                    SamplingType		 FixedStep
+                    Step		 1
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 503
+            WindowRectTop		 1029
+            WindowRectRight		 740
+            WindowRectBottom		 1068
+        END Report
+
+        BEGIN Report
+            Name		 Access
+            Type		 Graph
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 No
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 740
+            WindowRectTop		 1029
+            WindowRectRight		 977
+            WindowRectBottom		 1085
+        END Report
+
+        BEGIN Report
+            Name		 Access1
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 377
+            WindowRectTop		 467
+            WindowRectRight		 1913
+            WindowRectBottom		 1038
+        END Report
+
+        BEGIN Report
+            Name		 Access2
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 625
+            WindowRectTop		 357
+            WindowRectRight		 2161
+            WindowRectBottom		 928
+        END Report
+
+        BEGIN Report
+            Name		 Access3
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 576
+            WindowRectTop		 198
+            WindowRectRight		 2112
+            WindowRectBottom		 769
+        END Report
+
+        BEGIN Report
+            Name		 Access4
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 653
+            WindowRectTop		 295
+            WindowRectRight		 2099
+            WindowRectBottom		 918
+        END Report
+
+        BEGIN Report
+            Name		 Access5
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 691
+            WindowRectTop		 333
+            WindowRectRight		 2137
+            WindowRectBottom		 956
+        END Report
+
+        BEGIN Report
+            Name		 Access6
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 729
+            WindowRectTop		 371
+            WindowRectRight		 2175
+            WindowRectBottom		 994
+        END Report
+
+        BEGIN Report
+            Name		 Access7
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/BOBSAT1/Sensor/Payload
+            BEGIN InstanceList
+                Instance		 AreaTarget/Big_Buttonwillow_Lake_197
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 490
+            WindowRectTop		 98
+            WindowRectRight		 2262
+            WindowRectBottom		 1081
+        END Report
+    END QuickReports
 
     BEGIN Extensions
 
@@ -126,8 +409,8 @@ BEGIN Scenario
             LaunchWindowUseEntireTraj		 Yes
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
-            LaunchWindowStart		 0
-            LaunchWindowStop		 0
+            LaunchWindowStart		 31536000
+            LaunchWindowStop		 31622400
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -352,6 +635,22 @@ BEGIN Scenario
         END ConnectReportUnits
 
         BEGIN ReportFavorites
+            BEGIN Class
+                Name		 Satellite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 Euler Angles
+                END Favorite
+            END Class
+            BEGIN Class
+                Name		 Access
+                BEGIN Favorite
+                    Type		 Graph
+                    BaseDir		 Install
+                    Style		 Access
+                END Favorite
+            END Class
         END ReportFavorites
 
         BEGIN ADFFileData
@@ -565,12 +864,6 @@ BEGIN Scenario
         END ExportDataFile
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RfEnv
@@ -1586,11 +1879,12 @@ BEGIN Scenario
 
                 StartTime		 18 Nov 2025 20:00:00.000000000
                 EndTime		 18 Nov 2025 20:00:00.000000000
-                CurrentTime		 18 Nov 2024 17:05:20.121999999
+                CurrentTime		 18 Nov 2024 17:05:41.248437494
+                Mode		 XRealtime
                 Direction		 Forward
-                UpdateDelta		 1
+                UpdateDelta		 0.01
                 RefreshDelta		 0.010000
-                XRealTimeMult		 1
+                XRealTimeMult		 0.0625
                 RealTimeOffset		 0
                 XRtStartFromPause		                Yes		
                 TimeArrayIncrement		 1
@@ -1663,225 +1957,6 @@ BEGIN Scenario
                 TextShadowStyle		 Dark
                 TextShadowColor		 #000000
                 BingLevelOfDetailScale		 2
-                BEGIN Map
-                    MapNum		 1
-                    TrackingMode		 LatLon
-                    PickEnabled		 On
-                    PanEnabled		 On
-
-                    BEGIN MapAttributes
-                        PrimaryBody		 Earth
-                        SecondaryBody		 Sun
-                        CenterLatitude		 37.33653662481474
-                        CenterLongitude		 -120.3236322929691
-                        ProjectionAltitude		 63621860
-                        FieldOfView		 35
-                        OrthoDisplayDistance		 20000000
-                        TransformTrajectory		 On
-                        EquatorialRadius		 6378137
-                        BackgroundColor		 #000000
-                        LatLonLines		 On
-                        LatSpacing		 30
-                        LonSpacing		 30
-                        LatLonLineColor		 #999999
-                        LatLonLineStyle		 2
-                        ShowOrthoDistGrid		 Off
-                        OrthoGridXSpacing		 5
-                        OrthoGridYSpacing		 5
-                        OrthoGridColor		 #ffffff
-                        ShowImageExtents		 Off
-                        ImageExtentLineColor		 #ffffff
-                        ImageExtentLineStyle		 0
-                        ImageExtentLineWidth		 1
-                        ShowImageNames		 Off
-                        ImageNameFont		 0
-                        Projection		 EquidistantCylindrical
-                        Resolution		 High
-                        CoordinateSys		 ECF
-                        UseBackgroundImage		 On
-                        UseBingForBackground		 Off
-                        BingType		 Aerial
-                        BingLogoHorizAlign		 Right
-                        BingLogoVertAlign		 Bottom
-                        BackgroundImageFile		 Basic.bmp
-                        UseNightLights		 Off
-                        NightLightsFactor		 3.5
-                        UseCloudsFile		 Off
-                        BEGIN ZoomLocations
-                            BEGIN ZoomLocation
-                                CenterLat		 37.33653662481474
-                                CenterLon		 -120.3236322929691
-                                ZoomWidth		 0.1377214864908624
-                                ZoomHeight		 0.103709975836793
-                            END ZoomLocation
-                        END ZoomLocations
-                        UseVarAspectRatio		 No
-                        SwapMapResolution		 Yes
-                        NoneToVLowSwapDist		 2000000
-                        VLowToLowSwapDist		 20000
-                        LowToMediumSwapDist		 10000
-                        MediumToHighSwapDist		 5000
-                        HighToVHighSwapDist		 1000
-                        VHighToSHighSwapDist		 100
-                        BEGIN Axes
-                            DisplayAxes		 no
-                            CoordSys		 CBI
-                            2aryCB		 Sun
-                            Display+x		 yes
-                            Label+x		 yes
-                            Color+x		 #ffffff
-                            Scale+x		 3
-                            Display-x		 yes
-                            Label-x		 yes
-                            Color-x		 #ffffff
-                            Scale-x		 3
-                            Display+y		 yes
-                            Label+y		 yes
-                            Color+y		 #ffffff
-                            Scale+y		 3
-                            Display-y		 yes
-                            Label-y		 yes
-                            Color-y		 #ffffff
-                            Scale-y		 3
-                            Display+z		 yes
-                            Label+z		 yes
-                            Color+z		 #ffffff
-                            Scale+z		 3
-                            Display-z		 yes
-                            Label-z		 yes
-                            Color-z		 #ffffff
-                            Scale-z		 3
-                        END Axes
-
-                    END MapAttributes
-
-                    BEGIN MapList
-                        BEGIN Detail
-                            Alias		 RWDB2_Coastlines
-                            Show		 Yes
-                            Color		 #8fbc8f
-                        END Detail
-                        BEGIN Detail
-                            Alias		 RWDB2_International_Borders
-                            Show		 No
-                            Color		 #8fbc8f
-                        END Detail
-                        BEGIN Detail
-                            Alias		 RWDB2_Islands
-                            Show		 No
-                            Color		 #8fbc8f
-                        END Detail
-                        BEGIN Detail
-                            Alias		 RWDB2_Lakes
-                            Show		 No
-                            Color		 #87cefa
-                        END Detail
-                        BEGIN Detail
-                            Alias		 RWDB2_Provincial_Borders
-                            Show		 No
-                            Color		 #8fbc8f
-                        END Detail
-                        BEGIN Detail
-                            Alias		 RWDB2_Rivers
-                            Show		 No
-                            Color		 #87cefa
-                        END Detail
-                    END MapList
-
-
-                    BEGIN MapAnnotations
-                    END MapAnnotations
-
-                    BEGIN DisplayFlags
-                        ShowLabels		 On
-                        ShowPassLabel		 Off
-                        ShowElsetNum		 Off
-                        ShowGndTracks		 On
-                        ShowGndMarkers		 On
-                        ShowOrbitMarkers		 On
-                        ShowPlanetOrbits		 Off
-                        ShowPlanetCBIPos		 On
-                        ShowPlanetCBILabel		 On
-                        ShowPlanetGndPos		 On
-                        ShowPlanetGndLabel		 On
-                        ShowSensors		 On
-                        ShowWayptMarkers		 Off
-                        ShowWayptTurnMarkers		 Off
-                        ShowOrbits		 On
-                        ShowDtedRegions		 Off
-                        ShowAreaTgtCentroids		 On
-                        ShowToolBar		 On
-                        ShowStatusBar		 On
-                        ShowScrollBars		 On
-                        AllowAnimUpdate		 Off
-                        AccShowLine		 On
-                        AccAnimHigh		 On
-                        AccStatHigh		 On
-                        AccAnimLineLineWidth		  1.0000000000000000e+00
-                        AccAnimLineLineStyle		 0
-                        ShowPrintButton		 On
-                        ShowAnimButtons		 On
-                        ShowAnimModeButtons		 On
-                        ShowZoomMsrButtons		 On
-                        ShowMapCbButton		 Off
-                    END DisplayFlags
-
-                    BEGIN RecordMovie
-                        OutputFormat		 VIDEO
-                        SdfSelected		 No
-                        Directory		 C:\Users\excal\Documents\GitHub\BOBSAT-1\Simulations\BOBSAT1
-                        BaseName		 Frame
-                        Digits		 4
-                        Frame		 0
-                        LastAnimTime		 0
-                        OutputMode		 Normal
-                        HiResAssembly		 Assemble
-                        HRWidth		 6000
-                        HRHeight		 4500
-                        HRDPI		 600
-                        UseSnapInterval		 No
-                        SnapInterval		 0
-                        VideoCodec		 "H264"
-                        Framerate		 30
-                        Bitrate		 10000000
-                    END RecordMovie
-
-
-                    BEGIN TimeDisplay
-                        Show		 0
-                        TextColor		 #ffffff
-                        TextTranslucency		 0
-                        ShowBackground		 0
-                        BackColor		 #4d4d4d
-                        BackTranslucency		 0.4
-                        XPosition		 20
-                        YPosition		 -20
-                    END TimeDisplay
-
-                    BEGIN LightingData
-                        DisplayAltitude		 0
-                        SubsolarPoint		 Off
-                        SubsolarPointColor		 #ffff00
-                        SubsolarPointMarkerStyle		 2
-
-                        ShowUmbraLine		 Off
-                        UmbraLineColor		 #000000
-                        UmbraLineStyle		 0
-                        UmbraLineWidth		 2
-                        FillUmbra		 On
-                        UmbraFillColor		 #000000
-                        ShowSunlightLine		 Off
-                        SunlightLineColor		 #ffff00
-                        SunlightLineStyle		 0
-                        SunlightLineWidth		 2
-                        FillSunlight		 On
-                        SunlightFillColor		 #ffffff
-                        SunlightMinOpacity		 0
-                        SunlightMaxOpacity		 0.2
-                        UmbraMaxOpacity		 0.7
-                        UmbraMinOpacity		 0.4
-                    END LightingData
-                END Map
 
                 BEGIN MapStyles
 
@@ -2326,7 +2401,6 @@ BEGIN Scenario
             Big_Buttonwillow_Lake_197		
             Big_Water_Lake_238		
             Buttonwillow_Slough_257		
-            California		
             California_Lakes_1		
             California_Lakes_10		
             California_Lakes_100		
@@ -2681,16 +2755,13 @@ BEGIN Scenario
         END Instance
         Instance AreaTarget/Big_Buttonwillow_Lake_197
             AreaTarget/Big_Buttonwillow_Lake_197		
+            Satellite/BOBSAT1		
         END Instance
         Instance AreaTarget/Big_Water_Lake_238
             AreaTarget/Big_Water_Lake_238		
         END Instance
         Instance AreaTarget/Buttonwillow_Slough_257
             AreaTarget/Buttonwillow_Slough_257		
-        END Instance
-        Instance AreaTarget/California
-            AreaTarget/California		
-            CoverageDefinition/CoverageDefinition1		
         END Instance
         Instance AreaTarget/California_Lakes_1
             AreaTarget/California_Lakes_1		

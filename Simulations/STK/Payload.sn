@@ -10,7 +10,7 @@ BEGIN Sensor
         BEGIN Rectangular
 
             UpDownAngle		  1.3680000000000000e+01
-            SideToSideAngle		  2.0000000000000001e-01
+            SideToSideAngle		  1.0000000000000000e+00
             AngularPatternResolution		  3.0000000000000004e+00
 
         END Rectangular

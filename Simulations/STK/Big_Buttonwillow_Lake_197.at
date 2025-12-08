@@ -11,11 +11,12 @@ BEGIN AreaTarget
         AutoCentroid		 On
         EcfLatitude		  3.7136397374407650e+01
         EcfLongitude		 -1.2079405063415571e+02
-        EcfAltitude		  0.0000000000000000e+00
+        EcfAltitude		 -6.4564517503211469e+00
         UseTerrainInfo		 On
         DisplayCoords		 Geodetic
 
         AreaType		 Pattern
+        AreaValue		  2.6069043194802024e+05
         NumberOfPolygonPts		 142
 
         BEGIN PolygonPoints

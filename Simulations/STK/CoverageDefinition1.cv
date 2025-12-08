@@ -9,7 +9,6 @@ BEGIN CoverageDefinition
 
         VersionIndicator		 20080103
         BEGIN CustomRegions
-            AreaTarget		 AreaTarget/California
             CheckForHoles		 Yes
             AllowSmallRegionIsotropicAlgorithm		
         END CustomRegions
@@ -83,12 +82,6 @@ BEGIN CoverageDefinition
         END ADFFileData
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Crdn

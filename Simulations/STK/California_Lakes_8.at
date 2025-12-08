@@ -11,7 +11,7 @@ BEGIN AreaTarget
         AutoCentroid		 On
         EcfLatitude		  3.7450503550616702e+01
         EcfLongitude		 -1.2035887749877574e+02
-        EcfAltitude		  0.0000000000000000e+00
+        EcfAltitude		  1.3086073698900046e+02
         UseTerrainInfo		 On
         DisplayCoords		 Geodetic
 
