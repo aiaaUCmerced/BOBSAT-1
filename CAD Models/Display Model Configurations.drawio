@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
+  <diagram name="Page-1" id="NLrzSjwR9LRr6hlZKJ0d">
+    <mxGraphModel dx="1426" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" style="locked=0;" />
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Initial Confuration" vertex="1">
+          <mxGeometry height="480" width="670" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="3U Full Configuration" vertex="1">
+          <mxGeometry height="480" width="400" x="750" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="6U Full Configuration" vertex="1">
+          <mxGeometry height="480" width="290" x="1160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-4" parent="0" style="locked=0;" value="System Layer" />
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-7" parent="EFPgGuq-9sLlFwbvHnxR-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#454545);verticalAlign=top;" value="Satellite System" vertex="1">
+          <mxGeometry height="440" width="340" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-8" parent="EFPgGuq-9sLlFwbvHnxR-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#454545);verticalAlign=top;" value="Ground System" vertex="1">
+          <mxGeometry height="280" width="290" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-5" parent="0" style="locked=0;" value="Subsystem Layer" />
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-9" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="Payload" vertex="1">
+          <mxGeometry height="150" width="100" x="90" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-10" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="C&amp;amp;DH" vertex="1">
+          <mxGeometry height="180" width="100" x="90" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-12" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="EPS" vertex="1">
+          <mxGeometry height="270" width="100" x="200" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-13" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="SENV" vertex="1">
+          <mxGeometry height="230" width="100" x="310" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-14" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="ADCS" vertex="1">
+          <mxGeometry height="80" width="100" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-15" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="COMMS" vertex="1">
+          <mxGeometry height="130" width="100" x="310" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-16" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="Ground Hardware" vertex="1">
+          <mxGeometry height="230" width="120" x="470" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-17" parent="EFPgGuq-9sLlFwbvHnxR-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#919191);verticalAlign=top;" value="Ground Software" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-6" parent="0" style="locked=0;" value="Component Layer" />
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-11" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Raspberry Pi 5" vertex="1">
+          <mxGeometry height="40" width="80" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-18" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Raspberry Pi Camera" vertex="1">
+          <mxGeometry height="40" width="80" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-19" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Multispectral Intensity Sensor" vertex="1">
+          <mxGeometry height="60" width="80" x="100" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-20" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Raspberry Pi 5 Heatsink" vertex="1">
+          <mxGeometry height="40" width="80" x="100" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-21" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Raspberry Pi 5 Wall Power" vertex="1">
+          <mxGeometry height="40" width="80" x="100" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-22" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Solar Panels" vertex="1">
+          <mxGeometry height="30" width="80" x="210" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-23" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Power Distribution Board" vertex="1">
+          <mxGeometry height="60" width="80" x="210" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-24" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Batteries" vertex="1">
+          <mxGeometry height="30" width="80" x="210" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-25" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Current Sensors" vertex="1">
+          <mxGeometry height="40" width="80" x="210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-26" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="3D Printed Frame" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-27" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Screws and Fasteners" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-28" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Thermal Sensors" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-29" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Thermal Tape" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-30" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Cabling" vertex="1">
+          <mxGeometry height="30" width="80" x="210" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-31" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="IMU" vertex="1">
+          <mxGeometry height="40" width="80" x="210" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-32" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Radio Chip" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-33" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Radio Antenna" vertex="1">
+          <mxGeometry height="40" width="80" x="490" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-34" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Radio Chip" vertex="1">
+          <mxGeometry height="40" width="80" x="490" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-35" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Radio Antenna" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-36" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Raspberry Pi Pico" vertex="1">
+          <mxGeometry height="40" width="80" x="490" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EFPgGuq-9sLlFwbvHnxR-37" parent="EFPgGuq-9sLlFwbvHnxR-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E3E3E3);fontColor=light-dark(#000000,#000000);verticalAlign=top;" value="Laptop" vertex="1">
+          <mxGeometry height="40" width="80" x="490" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
