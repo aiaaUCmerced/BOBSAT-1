@@ -7,3 +7,4 @@ This will store all the CAD models for bobsat-1 with the versions and what not
 2. Always push to the main branch
 3. Any fime named temp, TEMP, xxxx_TEMP, xxx_temp shall be capable of deletion without nay major conflict
 4. Please dont push python virtual environemnts PLEASE PLEASE PLEASE
+5. Don't push export controlled files to the github, or else.
