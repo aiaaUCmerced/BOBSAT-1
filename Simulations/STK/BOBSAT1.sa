@@ -8082,7 +8082,7 @@ BEGIN Satellite
 
                 Pitch		  2.1906554973898949e+01
 
-                Roll		  1.6720429885005012e+02
+                Roll		  1.6720429885005015e+02
 
                 UiSequence		 313
 
@@ -8475,12 +8475,6 @@ BEGIN Satellite
         END ObjectCoverage
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RadarCrossSection

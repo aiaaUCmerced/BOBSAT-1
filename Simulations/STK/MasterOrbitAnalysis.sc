@@ -277,10 +277,10 @@ BEGIN Scenario
             FrameType		 0
             DockCircleID		 0
             DockID		 0
-            WindowRectLeft		 653
-            WindowRectTop		 295
-            WindowRectRight		 2099
-            WindowRectBottom		 918
+            WindowRectLeft		 805
+            WindowRectTop		 447
+            WindowRectRight		 2247
+            WindowRectBottom		 1066
         END Report
 
         BEGIN Report
@@ -307,10 +307,10 @@ BEGIN Scenario
             FrameType		 0
             DockCircleID		 0
             DockID		 0
-            WindowRectLeft		 691
-            WindowRectTop		 333
-            WindowRectRight		 2137
-            WindowRectBottom		 956
+            WindowRectLeft		 501
+            WindowRectTop		 143
+            WindowRectRight		 1947
+            WindowRectBottom		 766
         END Report
 
         BEGIN Report
@@ -337,10 +337,10 @@ BEGIN Scenario
             FrameType		 0
             DockCircleID		 0
             DockID		 0
-            WindowRectLeft		 729
-            WindowRectTop		 371
-            WindowRectRight		 2175
-            WindowRectBottom		 994
+            WindowRectLeft		 539
+            WindowRectTop		 181
+            WindowRectRight		 1985
+            WindowRectBottom		 804
         END Report
 
         BEGIN Report
