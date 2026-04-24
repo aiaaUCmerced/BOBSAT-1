@@ -1,0 +1,44 @@
+Here is current structure, all of which are components. This is exclusively functional
+so no physical models, simply functional performance.
+
+Start small then expand.
+
+
+	1
+		2
+			3 (Unit)
+				4 (F' comp)
+					5 (Diminishing returns)
+SatelliteParts
+	GNC
+		Navigation
+		Controls
+			Magnetorquers
+				MagnetorquersDriver
+				MagnetorquersHealth
+						
+
+		Guidance
+			StateEstimator
+				DataPointCollector
+				KalmaFilter
+			TrajectoryPlanner
+				TargetLogic
+				
+
+
+	CDH
+
+		CommandHandling
+			StateSolver
+		
+		Middleware(required for F')
+			ActiveLogger
+			CommandQueue
+		DataLogging
+			SensorDataAquisition 
+			Storage
+			Update
+
+			
+

@@ -116,11 +116,28 @@ These rules include things like no jump, goto statements, no recursion, upper bo
 
 # File Structure
 
+Outlines what files generally go where
 
 /docs = design reviews, mission statements 
+> pdf txt docx excel
+
 /analysis = trade studies, feasability studies, link budgets etc
-instead make an extreamly low resolution one just to get the dimensions.
+> pdf excel sysml 
+
 /sim = simulation files. Think matlab and ansys as well as other code
+> matlab(m) ansys simulink misc
+
 /src = Basically flight softwaree and running mission critical code (MUST FOLLOW POWERS OF 10)
+> any regarding flight software
+
 /test = test cases mostly reserved for the software portion
+> c cpp py test case
+
 /scripts = Used for automation, non-critical 
+> misc
+
+/data
+> excel tif py ipynb
+
+1. Sysml go in analysis, despite being simulation technically
+2. 

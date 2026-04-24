@@ -1,0 +1,32 @@
+This text file is just going to be a massive yap seshion during the coding and development
+process. There is no particular order to this, and callbacks will be refered to [x]
+
+Due to github being annoying, i shall do all of this work in a separate github, and then upon 
+completing will do a write up on how to setup the key files and generate the binaries and what not
+
+
+For the most part see https://nasa.github.io/fprime/ and get gud at coding ig.
+
+Installed f-prime bootstrap project into /src
+Project name : Bobsat-1 
+Namespace : Bobsat1
+
+All components to be made listed here: GNC GYRO SOLAR PAY OBCS EPS ANTENNA WHEELS TRACKER_SUN TRACKER_STAR GPS
+Gona focus on payload, gyro, gnc, obcs, and gps, and WHEELS
+
+
+A git repository has been initialized and F´ has been added as a
+submodule, you can now create your first commit.
+
+Get started with your F´ project:
+
+-- Remember to always activate the virtual environment --
+cd Bobsat-1
+. fprime-venv/bin/activate
+
+-- Create a new component --
+fprime-util new --component
+
+-- Create a new deployment --
+fprime-util new --deployment
+

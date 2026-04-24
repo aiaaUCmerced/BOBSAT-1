@@ -1,0 +1,4 @@
+https://github.com/DAF-Digital-Transformation-Office/PySysML2
+
+
+Use pysysmlv2
