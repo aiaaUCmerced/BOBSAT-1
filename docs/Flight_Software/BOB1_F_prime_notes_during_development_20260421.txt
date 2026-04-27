@@ -28,6 +28,11 @@ fprime-util new --component
 -- Create a new deployment --
 fprime-util new --deployment
 
+Be sure to run : fprime-util generate && fprime-util build 
+this makes the Comnponents portion where all the components go
+
+Im actually troll gotta do cd Bobsat1/Components to make them smh
+
 First gonna focus on 2 components, OBCS and Mag Torquers
 
 Goal: 
@@ -35,4 +40,34 @@ Goal:
     2. Log data
 
 
-For now making two components OBCS and Magnetorquers
+For now making two components OBCS and Magnetorquers (using the fprime new component comand above)
+
+Basic understanding, the fpp file is the high level overview and auto generating 
+part of the code.
+
+Add function SAY_HI per the hello world instructions
+fprime-util impl # Converts the high level to low level .cpp
+
+mv template.cpp and template.hpp to regular .cpp and .hpp
+
+Per hello world, copied template .cpp SAY_HI_cmdHandler into 
+
+fprime-util new --deployment # idk what exactly this does atm
+
+Whatever names the deployment : cd DeploymentNamespace
+Follow readme in deployment
+
+Ideally make one testing deployment, and anytime you wanna update the component just do fprime-util build within the deployment 
+
+upon doing a review, make a new review deployment
+
+
+Need to add to the Test deployment and update the instances and topology fpp file to add certain commands and what not
+instances :  instance Magnetorqers: Magnetorqers base id 0x10005000 \
+    queue size Default.QUEUE_SIZE \
+    stack size Default.STACK_SIZE \
+    priority 50
+
+topology : instance ComponentNamespaceName
+
+Upon adding them, rebuild it,
