@@ -70,4 +70,14 @@ instances :  instance Magnetorqers: Magnetorqers base id 0x10005000 \
 
 topology : instance ComponentNamespaceName
 
-Upon adding them, rebuild it,
+Upon adding them, rebuild it, yada yada. Also note some funky stuff 
+with name spaces and topology but whomever is reading my rant im sure
+can figure out the kinks just make ur own mini project and add some stuff ot it
+and what not 
+
+
+Here is the basic flowdown of instructions imma have
+
+
+
+
