@@ -1,4 +1,5 @@
 https://github.com/DAF-Digital-Transformation-Office/PySysML2
 
+use modelio for basic system diagrams
 
 Use pysysmlv2

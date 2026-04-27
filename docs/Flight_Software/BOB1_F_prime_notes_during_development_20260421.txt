@@ -79,5 +79,10 @@ and what not
 Here is the basic flowdown of instructions imma have
 
 
+Ok before that i removed the submodule aspect of the folder cause too complicated, later in the 
+future should the need to reuse components arise then might have to go 
+the submoduel route
+
+
 
 
