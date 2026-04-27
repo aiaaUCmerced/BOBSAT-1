@@ -11,8 +11,6 @@ Installed f-prime bootstrap project into /src
 Project name : Bobsat-1 
 Namespace : Bobsat1
 
-All components to be made listed here: GNC GYRO SOLAR PAY OBCS EPS ANTENNA WHEELS TRACKER_SUN TRACKER_STAR GPS
-Gona focus on payload, gyro, gnc, obcs, and gps, and WHEELS
 
 
 A git repository has been initialized and F´ has been added as a
@@ -30,3 +28,11 @@ fprime-util new --component
 -- Create a new deployment --
 fprime-util new --deployment
 
+First gonna focus on 2 components, OBCS and Mag Torquers
+
+Goal: 
+    1. Turn on mag torquers
+    2. Log data
+
+
+For now making two components OBCS and Magnetorquers
