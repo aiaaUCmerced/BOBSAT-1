@@ -78,10 +78,12 @@ and what not
 
 Here is the basic flowdown of instructions imma have
 
+okayyyy this took way to long but basically.
 
-Ok before that i removed the submodule aspect of the folder cause too complicated, later in the 
-future should the need to reuse components arise then might have to go 
-the submoduel route
+to geenrate the environment for the fprime, do this pull the github
+
+fprime-bootstrap project --no-generate
+Bobsat
 
 
 
