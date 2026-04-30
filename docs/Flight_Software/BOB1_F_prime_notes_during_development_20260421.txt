@@ -1,6 +1,25 @@
 This text file is just going to be a massive yap seshion during the coding and development
 process. There is no particular order to this, and callbacks will be refered to [x]
 
+# To get started
+# Note this is all done in a linux environment and can work with wsl
+# After cloning the repo follow this list of commands 
+first clone the aiaa/UCMerced bobsat 1 project
+
+then do these: 
+sudo apt install gcc && sudo apt install g++
+cd BOBSAT-1/src
+rm -rf /Bobsat-1
+cd ~ && python -m venv venv
+source ~/venv/bin/activate 
+pip install fprime-bootstrap
+fprime-bootstrap clone git@github.com:Excaliabure/Bobsat-1.git
+
+Once this fails, ask zabid@ucmerced.edu for assistance on setting up git and 
+adding ssh key to the repo for future use (will make easier later)
+
+
+
 Due to github being annoying, i shall do all of this work in a separate github, and then upon 
 completing will do a write up on how to setup the key files and generate the binaries and what not
 
@@ -76,14 +95,25 @@ can figure out the kinks just make ur own mini project and add some stuff ot it
 and what not 
 
 
-Here is the basic flowdown of instructions imma have
+For now no command sequencing, aka no automation
 
-okayyyy this took way to long but basically.
+##################################################################################################################
+D = Draft
+PR = Pending Review
+F = Final
 
-to geenrate the environment for the fprime, do this pull the github
+Command List:
 
-fprime-bootstrap project --no-generate
-Bobsat
+	MAG_SET_STATE (D) - Sets the magnetorquer to be on/off based on bool value
+	MAG_HEALTH (D) - Returns some telemetry on the health of the mags aka voltage and that not
+
+##################################################################################################################
+
+Pseudocode:
+
+	MAG_SET_STATE (x : bool) -> command recieved, set state to ON if x = true else OFF
+	
+
 
 
 
