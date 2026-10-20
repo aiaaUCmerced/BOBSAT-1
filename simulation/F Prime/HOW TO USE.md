@@ -1,0 +1,1 @@
+This file will give the step-by-step process of what to upload to the github and when.
