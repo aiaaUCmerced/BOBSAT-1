@@ -16,3 +16,4 @@ Images of team and cool stuff done in the simulations and link to BOBSAT website
 This will store all the info, simulations, trade studies and what not for Bobsat-1 with the versions and what not and also code (flight software, simulations whatever). This is exclusively focusing on the engineering aspect of the project, and ideally has minimal reports and what not.
 A majority of the reports and all the cad files should be in the box
 
+TODO: We need to update this to serve as a good intro page for the project. 
