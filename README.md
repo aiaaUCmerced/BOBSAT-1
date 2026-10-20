@@ -11,9 +11,10 @@ With the hope of establishing a CubeSat program for UC Merced, the goal BOBSAT i
 
 Images of team and cool stuff done in the simulations and link to BOBSAT website page.
 
+Link to BOBSAT Box Folder: https://ucmerced.box.com/s/b6td410r5sizzz038bfetjpbibllferq
+
 
 # Github Purpose
-This will store all the info, simulations, trade studies and what not for Bobsat-1 with the versions and what not and also code (flight software, simulations whatever). This is exclusively focusing on the engineering aspect of the project, and ideally has minimal reports and what not.
-A majority of the reports and all the cad files should be in the box
+This repo will store all of the simulations, trade studies, and documentation for the Bobsat-1 mission. This is exclusively focusing on the engineering aspect of the project. A majority of the reports, as well as, all the cad files associated with BOBSAT-1 should be found in the box.
 
-TODO: We need to update this to serve as a good intro page for the project. 
+
